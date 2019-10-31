@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <ID>{id}</ID>
+        <From>wlhsvc.*</From>
+        <To>wlhsvr.deplist</To>
+        <Type>deplist</Type>
+        <GenTime>{gentime}</GenTime>
+        <SendTime>{sendtime}</SendTime>
+    </Header>
+    <Body>
+        <Request>
+            <Action>QueryDepAndPer</Action>
+        </Request>
+    </Body>
+</Message>  
